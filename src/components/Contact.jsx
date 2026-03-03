@@ -23,14 +23,14 @@ export default function Contact() {
             <span className="c-arr">↗</span>
           </a>
           <a
-            href="https://linkedin.com/in/sam-abelbb2553139"
+            href="https://www.linkedin.com/in/sam-abel-j-bb2553139/"
             target="_blank"
             rel="noreferrer"
             className="c-link"
           >
             <div>
               <div className="c-lbl">LinkedIn</div>
-              <div className="c-val">sam-abelbb2553139</div>
+              <div className="c-val">sam-abel</div>
             </div>
             <span className="c-arr">↗</span>
           </a>
