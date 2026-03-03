@@ -1,0 +1,125 @@
+.exp-section {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+.exp-card {
+  margin-top: 4rem;
+  border: 1px solid var(--border);
+}
+
+.exp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface2);
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.exp-co {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.3rem;
+}
+
+.exp-ro {
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.exp-right { text-align: right; }
+
+.exp-per {
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.exp-loc {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.exp-body {
+  padding: 2.5rem;
+  background: var(--bg);
+}
+
+.exp-story {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.95;
+  margin-bottom: 2.5rem;
+  max-width: 72ch;
+}
+
+.exp-story strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.exp-nums {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.en-box {
+  background: var(--surface2);
+  padding: 1.5rem;
+  transition: background 0.25s;
+}
+.en-box:hover { background: var(--surface); }
+
+.en-n {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 2.2rem;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.en-d {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.5rem;
+}
+
+.etag {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.75rem;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  transition: all 0.2s;
+}
+.etag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .exp-head { flex-direction: column; }
+  .exp-right { text-align: left; }
+  .exp-nums { grid-template-columns: 1fr 1fr; }
+}
