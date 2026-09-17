@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <a href="#" className="nav-logo">
-        Sam<span>.</span>
+        
       </a>
       <ul className="nav-links">
         <li><button onClick={() => scrollTo('about')}>About</button></li>
